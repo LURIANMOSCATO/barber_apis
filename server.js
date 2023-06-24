@@ -10,8 +10,8 @@ const db = mysql.createConnection({
     host: "localhost",
     port: "3307",
     user: "Lurian",
-    password: "root",
-    database: "barber"
+    password: "Lvm2031",
+    database: "barber_order"
 });
 
 app.get('/', (req, res) =>{
